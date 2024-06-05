@@ -1,0 +1,18 @@
+spring:
+    config:
+        import: file:./config.yml
+
+    datasource:
+        driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+        url: jdbc:sqlserver://${database.host}:${database.port};databaseName=${database.db};encrypt=false
+        username: ${database.user}
+        password: $daondb3030!@
+
+    jpa:
+        hibernate:
+            ddl-auto: none # (or create if you want to create the schema, but be careful with production databases)
+        database-platform: org.hibernate.dialect.SQLServerDialect
+        show-sql: true # Set this to false for production to reduce log noise
+        properties:
+            hibernate:
+                format_sql: true

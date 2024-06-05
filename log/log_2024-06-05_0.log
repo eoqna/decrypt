@@ -1,0 +1,4 @@
+2024-06-05 17:36:18 INFO  --- Starting CryptApplication using Java 17.0.9 with PID 36232 (D:\dbshin\06_peristalsis\decrypt\build\classes\java\main started by 대범신 in D:\dbshin\06_peristalsis\decrypt) 
+2024-06-05 17:36:18 INFO  --- No active profile set, falling back to 1 default profile: "default" 
+2024-06-05 17:36:24 INFO  --- Started CryptApplication in 6.654 seconds (process running for 7.95) 
+2024-06-05 17:36:24 INFO  --- ===== started decrypt project ===== 
